@@ -1,0 +1,20 @@
+.link-hover{
+    transition: all 0.2s;
+    white-space: nowrap;
+    &:hover{
+        color:$primary !important;
+        & .link-hover-line{
+            display: inline-block !important;
+        }
+    }
+    &.active{
+        color:$primary !important;
+        & .link-hover-line{
+            display: inline-block !important;
+        }
+    }
+}
+.link-hover-line{
+    color: $primary;
+    transition: all 0.2s ease;
+}
