@@ -144,29 +144,11 @@ WithYou/
 
 ---
 
-## 快速開始
 
-### 安裝依賴
+### 本地預覽
 
-```bash
-npm install
-```
-
-### 開發環境
-
-直接開啟 `index.html` 或使用 Live Server 預覽
-
-### 建置生產版本
-
-```bash
-npm run build
-```
-
-### 部署到 GitHub Pages
-
-```bash
-npm run deploy
-```
+- 直接開啟 `index.html` 檔案即可瀏覽網站
+- 或使用 VS Code 的 Live Server 外掛進行本地預覽
 
 ---
 
