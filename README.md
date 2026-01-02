@@ -1,10 +1,5 @@
 # WithYou - 家長陪伴支持平台
-
-<p align="center">
-  <img src="https://drive.google.com/file/d/1kKWsEyFcB4iBe5R8TwWyhu_bflnUuwDL/view?usp=sharing"
-       width="90%"
-       style="border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.15);" />
-</p>
+![專案封面]([https://i.imgur.com/xxxxxxx.png](https://drive.google.com/file/d/1kKWsEyFcB4iBe5R8TwWyhu_bflnUuwDL/view?usp=sharing))
 
 
 **Bootstrap + jQuery + SCSS 打造的親子陪伴故事平台**
