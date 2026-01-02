@@ -1,5 +1,5 @@
 # WithYou - 家長陪伴支持平台
-![專案封面](https://drive.google.com/file/d/1kKWsEyFcB4iBe5R8TwWyhu_bflnUuwDL/view?usp=sharing)
+![專案封面](https://i.ibb.co/qLXYH85B/withyou.jpg)
 
 
 **Bootstrap + jQuery + SCSS 打造的親子陪伴故事平台**
