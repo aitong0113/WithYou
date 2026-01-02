@@ -1,7 +1,7 @@
 # WithYou - 家長陪伴支持平台
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/aitong0113/VC-Day21/main/banner.png](https://aitong0113.github.io/WithYou/images/withyou.jpeg)"
+  <img src="https://drive.google.com/file/d/1kKWsEyFcB4iBe5R8TwWyhu_bflnUuwDL/view?usp=sharing"
        width="90%"
        style="border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.15);" />
 </p>
