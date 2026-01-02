@@ -179,4 +179,3 @@ WithYou/
 
 ---
 
-> 封面圖請將你首頁截圖上傳至 images/withyou-cover.png 並同步更新 GitHub 上的圖片路徑。
