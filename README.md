@@ -1,8 +1,11 @@
 # WithYou - 家長陪伴支持平台
 
-<div align="center">
+<p align="center">
+  <img src="[https://raw.githubusercontent.com/aitong0113/VC-Day21/main/banner.png](https://aitong0113.github.io/WithYou/images/withyou.jpeg)"
+       width="90%"
+       style="border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.15);" />
+</p>
 
-![專案封面](https://aitong0113.github.io/WithYou/images/withyou.jpeg)
 
 **Bootstrap + jQuery + SCSS 打造的親子陪伴故事平台**
 
