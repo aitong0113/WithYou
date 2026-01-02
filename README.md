@@ -6,23 +6,24 @@
 
 **Bootstrap + jQuery + SCSS 打造的親子陪伴故事平台**
 
-<a href="https://你的github帳號.github.io/WithYou/" target="_blank"><img src="https://img.shields.io/badge/網站展示-F9C94E?style=for-the-badge" alt="Demo"></a> <a href="https://github.com/你的github帳號/WithYou" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
+<a href="https://aitong0113.github.io/WithYou/" target="_blank"><img src="https://img.shields.io/badge/網站展示-F9C94E?style=for-the-badge" alt="Demo"></a> <a href="https://github.com/aitong0113/WithYou" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
 
 </div>
 
 ---
 
+
 ## 專案簡介
 
-WithYou 是一個以親子陪伴為主題的故事平台，協助家長與孩子透過繪本、故事與陪伴師資源，建立更緊密的親子關係。網站提供繪本陪伴流程、陪伴師介紹、親子故事分享等功能，並支援響應式設計，讓家長隨時隨地獲得支持。
+WithYou 是一個親子繪畫陪伴平台，結合繪畫陪伴師的專業引導，協助家長透過繪畫過程覺察自我情緒、面對教養孩子的挑戰。平台支持家長穩定身心、促進親子關係健康發展，讓每個家庭都能在陪伴中找到支持與力量。
 
 **核心功能**
 
-- 首頁溫馨主視覺與陪伴理念
-- 繪本陪伴流程介紹
-- 陪伴師介紹與聯絡
+- 首頁溫馨插畫與陪伴理念
+- 繪畫陪伴流程介紹
+- 陪伴師專業介紹與聯絡
 - 親子故事分享專區
-- 線上預約陪伴服務
+- 線上預約繪畫陪伴服務
 - 響應式設計（手機、平板、桌機）
 
 ---
@@ -162,8 +163,8 @@ WithYou/
 
 ## 相關連結
 
-- **網站展示**：https://你的github帳號.github.io/WithYou/
-- **GitHub Repo**：https://github.com/你的github帳號/WithYou
+- **網站展示**：https://aitong0113.github.io/WithYou/
+- **GitHub Repo**：https://github.com/aitong0113/WithYou
 
 ---
 
@@ -173,7 +174,7 @@ WithYou/
 
 親子陪伴 × 設計 × 前端
 
-💌 GitHub: <a href="https://github.com/你的github帳號" target="_blank">你的github帳號</a>
+💌 GitHub: <a href="https://github.com/aitong0113" target="_blank">aitong0113</a>
 
 ---
 
