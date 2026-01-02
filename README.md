@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![專案封面](images/withyou.png)
+![專案封面](https://github.com/aitong0113/WithYou/raw/main/images/withyou.png)
 
 **Bootstrap + jQuery + SCSS 打造的親子陪伴故事平台**
 
