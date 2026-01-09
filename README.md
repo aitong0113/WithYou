@@ -2,7 +2,11 @@
 
 <div align="center">
 
-![專案封面](https://i.ibb.co/qLXYH85B/withyou.jpg)
+<img
+  src="./images/withyou.png"
+  alt="WithYou Banner"
+  style="width:100%; max-width:1200px;"
+/>
 
 
 **Bootstrap + jQuery + SCSS 打造的親子陪伴故事平台**
