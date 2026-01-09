@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.2"
-  }
+  },
+  "devDependencies": {
+    "sass": "^1.77.0",
+    "postcss-cli": "^11.0.0",
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^9.0.0"
+  },
+  "scripts": {
+    "build:sass": "sass stylesheets/all.scss stylesheets/all.css --style=compressed",
+    "build:css": "postcss stylesheets/all.css --use autoprefixer --replace",
+    "build": "npm run build:sass && npm run build:css",
+    "build:dev": "sass stylesheets/all.scss stylesheets/all.css --style=expanded --embed-source-map && postcss stylesheets/all.css --use autoprefixer --replace",
+    "watch:sass": "sass --watch stylesheets/all.scss:stylesheets/all.css --style=expanded --embed-source-map",
+    "watch:css": "postcss stylesheets/all.css --use autoprefixer --watch --replace",
+    "watch": "concurrently \"npm run watch:sass\" \"npm run watch:css\""
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 0.5%",
+    "not dead"
+  ]
 }

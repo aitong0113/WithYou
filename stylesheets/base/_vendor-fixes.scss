@@ -1,0 +1,22 @@
+// Add standard appearance alongside vendor-prefixed ones to satisfy linters
+// Keep values matched to Bootstrap reboot defaults
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: button;
+}
+
+[type="search"] {
+  appearance: textfield;
+}
+
+// Pseudo element fix; harmless for linters
+::-webkit-search-decoration {
+  appearance: none;
+}
+
+::file-selector-button {
+  appearance: button;
+}

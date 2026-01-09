@@ -1,0 +1,14 @@
+// Card alignment fixes for 992px~1399px
+// Ensure bottom link aligns across cards by making body a column flex
+// and letting text take remaining space.
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .card .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card .card-body .card-text {
+    margin-bottom: auto;
+  }
+}

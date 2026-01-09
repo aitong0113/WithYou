@@ -1,13 +1,45 @@
-.img-hover{
-    transition: all 0.5s ease !important;
+.img-hover {
+    opacity: 0;
+    transition: opacity 0.5s ease !important;
 }
-.card:hover{
-    & .img-hover{
+
+.img-base {
+    opacity: 1;
+    transition: opacity 0.5s ease !important;
+}
+
+.card:hover {
+    & .img-hover {
+        opacity: 1 !important;
+    }
+    & .img-base {
         opacity: 0 !important;
     }
 }
-.sticky-bottom:hover{
-    & .img-hover{
+
+.sticky-bottom:hover {
+    & .img-hover {
+        opacity: 0 !important;
+    }
+    & .img-base {
+        opacity: 1 !important;
+    }
+}
+
+/* 當結構為 .img-hover 後面接另一張 <img> 時，滑過時也隱藏後面的圖片 */
+.card:hover .img-hover ~ img {
+    opacity: 0 !important;
+}
+.sticky-bottom:hover .img-hover ~ img {
+    /* 取消 sticky-bottom 的 sibling 隱藏，避免遮到 .img-base */
+}
+
+/* sticky-bottom 預設顯示 hover 圖（btn2.png），滑過改顯示 base 圖（btn.png） */
+.sticky-bottom {
+    & .img-hover {
+        opacity: 1 !important;
+    }
+    & .img-base {
         opacity: 0 !important;
     }
 }

@@ -1,0 +1,86 @@
+/* ===============================
+   Hero / Header（三段式穩定版）
+   =============================== */
+
+/* ===== 共用 Hero 本體 ===== */
+header.position-relative.min-vh-100 {
+  min-height: 130vh; // 預設：桌機
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 75%;
+}
+
+.header {
+  position: absolute;
+  inset: 0;
+}
+
+/* ===== 桌機文字（≥ lg） ===== */
+.header-text {
+  max-width: 45vw;
+  right: 17vw;
+  top: clamp(10vh, 14vw, 22vh);
+  text-align: end;
+  -webkit-text-stroke: 2px white;
+}
+
+/* ===============================
+   📱 手機（≤ md）
+   =============================== */
+@include media-breakpoint-down(md) {
+  header.position-relative.min-vh-100 {
+    min-height: 120vh;
+    background-image: url(../images/home_mobile.png);
+    background-position: center 82%;
+  }
+
+  .header-text {
+    top: 8vh !important;             
+    left: 50%;
+    right: auto !important;
+    transform: translate(-50%, 0) !important; // 覆蓋 .translate-middle-y
+    max-width: 90vw;
+    text-align: center !important; // 覆蓋 .text-end
+    font-size: clamp(40px, 8vw, 48px);
+    -webkit-text-stroke: 1px white;
+  }
+
+  // 以更高特異性針對帶有工具類別的標題再覆蓋一次
+  .header-text.text-end { text-align: center !important; }
+  .header-text.top-50 { top: 8vh !important; }
+  .header-text.translate-middle-y { transform: translate(-50%, 0) !important; }
+}
+
+/* ===============================
+   📱➜💻 平板（md ~ lg）
+   =============================== */
+@include media-breakpoint-between(md, lg) {
+  header.position-relative.min-vh-100 {
+    min-height: 125vh;
+    background-image: url(../images/home_mobile.png);
+    background-position: center 78%;
+  }
+
+  .header-text {
+    top: 18vh !important;
+    left: 75%;
+    right: inherit;
+    transform: translate(-50%, 0) !important;
+    max-width: 70vw;
+    text-align: center !important;
+    font-size: clamp(36px, 6vw, 46px);
+  }
+
+  .header-text.text-end { text-align: center !important; }
+  .header-text.top-50 { top: 18vh !important; }
+  .header-text.translate-middle-y { transform: translate(-50%, 0) !important; }
+}
+
+/* ===============================
+   💻 桌機（≥ lg）
+   =============================== */
+@include media-breakpoint-up(lg) {
+  header.position-relative.min-vh-100 {
+    background-image: url(../images/home.png);
+  }
+}
