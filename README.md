@@ -2,7 +2,10 @@
 
 <div align="center">
 
-!封面[https://raw.githubusercontent.com/aitong0113/WithYou/main/images/withyou.jpeg]
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aitong0113/WithYou/main/images/withyou.jpeg" alt="WithYou Banner" width="100%">
+</p>
+
 
 
 **Bootstrap + jQuery + SCSS 打造的親子陪伴故事平台**
