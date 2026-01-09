@@ -1,9 +1,10 @@
 # WithYou - 家長陪伴支持平台
 
 <div align="center">
+  
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/aitong0113/WithYou/main/images/withyou.jpeg"
+    src="https://github.com/aitong0113/WithYou/blob/main/images/%20withyou.jpeg"
     alt="WithYou Banner"
     width="100%"
   />
