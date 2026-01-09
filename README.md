@@ -1,7 +1,6 @@
 # WithYou - 家長陪伴支持平台
 
 <div align="center">
-<<<<<<< HEAD
   
 <p align="center">
   <img
@@ -10,21 +9,6 @@
     width="100%"
   />
 </p>
-=======
-
-<<<<<<< HEAD
-<img src="./images/withyou.png" alt="Logo" width=100% />
->>>>>>> c13f274 (調整RD圖片)
-
-=======
-<p align="center">
-  <img
-    src="https://github.com/aitong0113/WithYou/blob/main/images/%20withyou.jpeg"
-    alt="WithYou Banner"
-    width="100%"
-  />
-</p>
->>>>>>> a5599c6 (調整RD)
 
 **Bootstrap + jQuery + SCSS 打造的親子陪伴故事平台**
 
