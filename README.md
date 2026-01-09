@@ -3,7 +3,7 @@
 <div align="center">
 
 <img
-  src="./images/withyou.jepg"
+  src="./images/withyou.jpeg"
   alt="WithYou Banner"
   style="width:100%; max-width:1200px;"
 />
