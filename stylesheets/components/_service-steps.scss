@@ -1,0 +1,44 @@
+// Service steps responsive layout
+// 1) <=375.98px: keep single column; images 120px
+// 2) 376–575.98px: single column; images 140px
+// 3) 768–991.98px (tablets): default two columns; images 160px
+//    Modifier `.service-steps--single-md`: single column; images 200px; bigger text
+
+@media (max-width: 375.98px) {
+  .service-steps li img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 575.98px) {
+  .service-steps .col {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .service-steps li img {
+    width: 140px !important;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Default: two columns on tablets */
+  .service-steps .col {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .service-steps li img { width: 160px; height: auto; }
+
+  .service-steps h3 { font-size: 1.25rem; }
+  .service-steps h5 { font-size: 1.125rem; }
+}
+
+/* Tablet modifier: single column with bigger text */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .service-steps.service-steps--single-md .col { width: 100%; }
+  .service-steps.service-steps--single-md li img { width: 200px; height: auto; }
+  .service-steps.service-steps--single-md h3 { font-size: 1.5rem; }
+  .service-steps.service-steps--single-md h5 { font-size: 1.375rem; }
+}
