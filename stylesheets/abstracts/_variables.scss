@@ -1176,11 +1176,11 @@ $pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
 $pagination-hover-bg:               var(--#{$prefix}tertiary-bg) !default;
 $pagination-hover-border-color:     var(--#{$prefix}border-color) !default; // Todo in v6: remove this?
 
-$pagination-active-color:           $component-active-color !default;
+$pagination-active-color:           #7A7D45 !default; // Logo green for active pagination text
 $pagination-active-bg:              $component-active-bg !default;
 $pagination-active-border-color:    $component-active-bg !default;
 
-$pagination-disabled-color:         var(--#{$prefix}secondary-color) !default;
+$pagination-disabled-color:         #7A7D45 !default; // Logo green for disabled prev/next symbols
 $pagination-disabled-bg:            var(--#{$prefix}secondary-bg) !default;
 $pagination-disabled-border-color:  var(--#{$prefix}border-color) !default;
 

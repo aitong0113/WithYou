@@ -1,3 +1,7 @@
+/* Headline rhythm */
+.service-steps h3 {
+  line-height: 1.5;
+}
 // Service steps responsive layout
 // 1) <=375.98px: keep single column; images 120px
 // 2) 376–575.98px: single column; images 140px
@@ -31,7 +35,6 @@
   .service-steps li img { width: 160px; height: auto; }
 
   .service-steps h3 { font-size: 1.25rem; }
-  .service-steps h5 { font-size: 1.125rem; }
 }
 
 /* Tablet modifier: single column with bigger text */
@@ -39,5 +42,11 @@
   .service-steps.service-steps--single-md .col { width: 100%; }
   .service-steps.service-steps--single-md li img { width: 200px; height: auto; }
   .service-steps.service-steps--single-md h3 { font-size: 1.5rem; }
-  .service-steps.service-steps--single-md h5 { font-size: 1.375rem; }
+}
+
+/* STEP label spacing when merged into h3 */
+.service-steps h3 span {
+  display: inline-block;
+  margin-bottom: .25rem;
+  font-weight: 700;
 }
