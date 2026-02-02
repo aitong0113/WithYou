@@ -47,6 +47,9 @@
                         <a class="nav-link " href="./service.html">繪畫陪伴流程</a>
                     </li>
                     <li class="nav-item ms-3">
+                        <a class="nav-link" href="./faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item ms-3">
                         <a class="nav-link active" href="./companions.html">繪畫陪伴師</a>
                     </li>
                     <li class="nav-item ms-3">
@@ -78,17 +81,17 @@
                         <ul class="card-body list-unstyled fs-5 pt-3 d-flex justify-content-center justify-content-md-start flex-md-column"
                             id="Companion-Menu">
                             <li class="card-text py-1 px-2">
-                                <a href="#" class="text-decoration-none link-dark link-hover active">
+                                <a href="#" class="text-decoration-none link-dark link-hover active" data-filter="all">
                                     <span class="d-none link-hover-line">－</span>全部陪伴師
                                 </a>
                             </li>
                             <li class="card-text py-1 px-2">
-                                <a href="#" class="text-decoration-none link-dark link-hover">
+                                <a href="#" class="text-decoration-none link-dark link-hover" data-filter="online" data-link="./withYou.html?type=online">
                                     <span class="d-none link-hover-line">－</span>線上陪伴
                                 </a>
                             </li>
                             <li class="card-text py-1 px-2">
-                                <a href="#" class="text-decoration-none link-dark link-hover">
+                                <a href="#" class="text-decoration-none link-dark link-hover" data-filter="offline" data-link="./withYou.html?type=offline">
                                     <span class="d-none link-hover-line">－</span>實體陪伴
                                 </a>
                             </li>
@@ -98,10 +101,11 @@
 
                 <!-- 右側卡片 -->
                 <div class="col-12 col-md-9">
-                    <ul class="row row-cols-2 row-cols-lg-3 gy-3 gx-lg-4 list-unstyled text-start">
+                    <ul class="row row-cols-2 row-cols-lg-3 gy-3 list-unstyled text-start" id="CompanionsList">
 
                         <!-- 卡片 1 -->
-                        <li class="col">
+                        <li class="col" data-mode="online">
+                            <a class="text-decoration-none" href="./companion_detail.html?comp=Meili">
                             <div class="card border-0 rounded-5">
                                 <img class="card-img rounded-5" src="./images/05.png" alt="companionship example" />
                                 <div
@@ -110,10 +114,12 @@
                                     <h3 class="p-2 pt-1 m-0">Meili</h3>
                                 </div>
                             </div>
+                            </a>
                         </li>
 
                         <!-- 卡片 2 -->
-                        <li class="col">
+                        <li class="col" data-mode="offline">
+                            <a class="text-decoration-none" href="./companion_detail.html?comp=Zoe">
                             <div class="card border-0 rounded-5">
                                 <img class="card-img rounded-5" src="./images/07.png" alt="companionship example" />
                                 <div
@@ -122,10 +128,12 @@
                                     <h3 class="p-2 pt-1 m-0">Zoe</h3>
                                 </div>
                             </div>
+                            </a>
                         </li>
 
                         <!-- 卡片 3 -->
-                        <li class="col">
+                        <li class="col" data-mode="online">
+                            <a class="text-decoration-none" href="./companion_detail.html?comp=Michael">
                             <div class="card border-0 rounded-5">
                                 <img class="card-img rounded-5" src="./images/06.png" alt="companionship example" />
                                 <div
@@ -134,10 +142,12 @@
                                     <h3 class="p-2 pt-1 m-0">Michael</h3>
                                 </div>
                             </div>
+                            </a>
                         </li>
 
                         <!-- 卡片 4 -->
-                        <li class="col">
+                        <li class="col" data-mode="offline">
+                            <a class="text-decoration-none" href="./companion_detail.html?comp=Birdy">
                             <div class="card border-0 rounded-5">
                                 <img class="card-img rounded-5" src="./images/Michael.png"
                                     alt="companionship example" />
@@ -147,6 +157,7 @@
                                     <h3 class="p-2 pt-1 m-0">Birdy</h3>
                                 </div>
                             </div>
+                            </a>
                         </li>
 
                     </ul>

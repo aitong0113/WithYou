@@ -1,0 +1,13 @@
+// Companion Detail page styles
+#companionProfile {
+  .companion-badge {
+    font-size: 1rem;         // default .875rem → larger
+    padding: 0.45rem 0.8rem; // increase pill size
+    border-radius: 9999px;
+  }
+  #companionTags .badge {
+    font-size: 0.95rem;
+    padding: 0.45rem 0.8rem;
+    border-radius: 9999px;
+  }
+}

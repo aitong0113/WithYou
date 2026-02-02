@@ -1,0 +1,86 @@
+// FAQ page-specific styles
+:root {
+  --faq-accent: #F9C745;
+}
+
+.faq-hero {
+  background: url(../../images/lightpaperfibers.png);
+}
+
+.faq-card {
+  border-top: 6px solid var(--faq-accent);
+  border-radius: 16px;
+}
+
+.faq-title {
+  font-weight: 800;
+  letter-spacing: .5px;
+  font-size: 1.75rem;
+}
+
+.faq-sub {
+  color: #6c757d;
+}
+
+.faq-accordion {
+  .accordion-item {
+    border: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .06);
+
+    &:has(.accordion-button:not(.collapsed)) {
+      background: #fff;
+    }
+
+    &:hover {
+      box-shadow: 0 10px 24px rgba(0, 0, 0, .08);
+    }
+  }
+
+  .accordion-button {
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    background: transparent;
+    box-shadow: none !important;
+    border: 1px solid rgba(138, 107, 0, .2);
+    border-radius: 12px;
+    font-size: 1.15rem;
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+
+    &:focus {
+      box-shadow: 0 0 0 .2rem rgba(249, 199, 69, .25) !important;
+    }
+
+    &::after {
+      filter: grayscale(1) brightness(.7);
+    }
+
+    &:not(.collapsed) {
+      background: #FFFBE8;
+      box-shadow: none;
+      border-color: rgba(138, 107, 0, .35);
+    }
+  }
+
+  .accordion-body {
+    line-height: 1.9;
+    padding: 1rem 1.25rem;
+  }
+}
+
+.faq-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #FFF3CC;
+  color: #8A6B00;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: .75rem;
+}

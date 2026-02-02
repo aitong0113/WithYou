@@ -1,0 +1,7 @@
+// Align button content vertically and horizontally
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.25; // keep readable while centering
+}
